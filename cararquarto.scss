@@ -92,7 +92,7 @@ $selection-bg: #4076AE;
   color: $highlight-color; /* Change the color */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.5em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.5em; /* Also needed for space (tweak if needed) */
   font-size: 66%;
 }
 
@@ -104,3 +104,17 @@ $selection-bg: #4076AE;
   font-size: 36pt;
 }
 
+.reveal .faded{
+  opacity: 0.4;
+}
+
+
+.reveal .faded-small{
+  opacity: 0.4;
+  font-size: 0.8em;
+}
+
+
+.reveal .imitate-title{
+  font-size: 2em;
+}
