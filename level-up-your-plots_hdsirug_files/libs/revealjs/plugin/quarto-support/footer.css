@@ -72,15 +72,35 @@
 }
 
 @media screen and (max-width: 800px) {
-  .reveal .slide-logo {
-    max-height: 1.1rem;
-    bottom: -2px;
-    right: 10px;
-  }
-  .reveal .footer {
-    font-size: 14px;
-    bottom: 0px;
-  }
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 12px;
+  max-height: 2.2rem;
+  height: 100%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: auto;
+  /* to make logo appear over the banner*/
+  z-index: 3;
+}
+
+.reveal .footer {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.reveal .footer > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
   .reveal .slide-number {
     font-size: 12px;
     bottom: 7px;
