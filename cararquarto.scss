@@ -12,7 +12,7 @@
 // see https://stackoverflow.com/questions/35718750/adding-custom-fonts-to-github-pages
 @font-face {
   font-family: 'brandon-text';
-  src: url("../../hdsi_rug/fonts/BrandonText-Regular.ttf") format('truetype');
+  src: url("/BrandonText-Regular.ttf") format('truetype');
 }
 
 $font-family-sans-serif: "brandon-text", Palatino,
