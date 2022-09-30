@@ -166,7 +166,7 @@ ggplot(filter(penguins, species == "Adelie"),
         panel.grid = element_blank())
 ```
 
-## The Great Penguin Bake-off
+## The Great Penguin Bake Off
 
 The penguins also baked their cakes for different amounts of time. Here are the mean durations per species. Which species left their cakes in the oven for longest?
 
@@ -188,7 +188,7 @@ duration_plot
 ```
 
 
-## The Great Penguin Bake-off
+## The Great Penguin Bake Off
 
 The penguins also baked their cakes for different amounts of time. Here are the mean durations per species. Which species left their cakes in the oven for longest?
 
