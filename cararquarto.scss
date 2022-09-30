@@ -9,11 +9,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
 
-// see https://stackoverflow.com/questions/35718750/adding-custom-fonts-to-github-pages
+// to work locally
 @font-face {
   font-family: 'brandon-text';
   src: url("/BrandonText-Regular.ttf") format('truetype');
 }
+
+// to create a url that will work on GitHub Pages
+@font-face {
+  font-family: 'brandon-text';
+  src: url("/hdsi_rug/BrandonText-Regular.ttf") format('truetype');
+}
+
 
 $font-family-sans-serif: "brandon-text", Palatino,
   FreeSerif, serif !default;
